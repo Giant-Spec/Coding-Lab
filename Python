@@ -58,13 +58,13 @@ print(password)
 # print(sample(list, 1))
 
 from random import *
-users = range(1, 21) # 1부터 20까지의 숫자
-users = list(users)
-shuffle(users)
 
-winners = sample(users, 4) # 4명중에서 1명은 치킨, 3명은 커피
+user = range(1,21)
+user = list(user)
+shuffle(user)
 
-print("-- 담첨자 발표 --")
-print("치킨 담첨자 : {0}".format(winners[0]))
-print("커피 담첨자 : {0}".format(winners[1:]))
-print("-- 축하합니다 --")
+result = sample(user, 4)
+print("축하합니다.")
+print("치킨 당첨자: {0}".format(result[0]))
+print("커피 당첨자: {0}".format(result[1:]))
+print("축하합니다.")
