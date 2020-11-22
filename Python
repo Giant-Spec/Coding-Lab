@@ -36,3 +36,35 @@ my_str = url.replace("https://", "")
 my_str = my_str[:my_str.index(".")] # my_str[0:5] (0,1,2,3,4)
 password = my_str[:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
 print(password)
+
+# # 4. 학교에서는 파이썬 코딩 대회를 주최합니다.
+# # 댓글 작성자들은 추첨을 통해 1명은 치킨, 3명은 커피 쿠폰을 받게 됩니다.
+
+# # 조건1 : 편의상 댓글은 20명이 작성하였고, 아이디는 1~20이라고 가정
+# # 조건2 : 댓글 내용과 상관 없이 무작위로 추첨하되 중복 불가
+# # 조건3 : random 모듈의 shuffle, sample 활용
+
+# # [출력예제]
+# # -- 담첨자 발표 --
+# # 치킨 담첨자 : 1
+# # 커피 담첨자 : [2,3,4]
+# # -- 축하합니다 --
+
+# # from randor import *
+# list = [1,2,3,4,5]
+# print(list)
+# shuffle(list)
+# print(list)
+# print(sample(list, 1))
+
+from random import *
+users = range(1, 21) # 1부터 20까지의 숫자
+users = list(users)
+shuffle(users)
+
+winners = sample(users, 4) # 4명중에서 1명은 치킨, 3명은 커피
+
+print("-- 담첨자 발표 --")
+print("치킨 담첨자 : {0}".format(winners[0]))
+print("커피 담첨자 : {0}".format(winners[1:]))
+print("-- 축하합니다 --")
