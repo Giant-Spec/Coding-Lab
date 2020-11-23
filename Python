@@ -214,7 +214,7 @@ print("총 {0}개의 매물이 있습니다.".format(len(houses)))
 for house in houses:
     house.show_detail()
 
-# 동네에 항상 대기 손님이 있는 맛있는 치킨집이 있습니다. 
+# 9.동네에 항상 대기 손님이 있는 맛있는 치킨집이 있습니다. 
 # 대기 손님의 치킨 요리 시간을 줄이고자 자동 주문 시스템을 제작하였습니다.
 # 시스템 코드를 확인하고 적절한 예외처리 구문을 넣으시오.
 
@@ -229,7 +229,7 @@ for house in houses:
 class SoldOutError(Exception):
     pass
 chicken = 10
-waiting =1 # 홀 안에는 현재 만석, 대기번호 1부터 시작
+waiting = 1 # 홀 안에는 현재 만석, 대기번호 1부터 시작
 while(True):
     try:
         print("[남은 치킨 : {0}]".format(chicken))
@@ -241,8 +241,8 @@ while(True):
         else:
             print("[대기번호 {0}] {1} 마리 주문이 완료되었습니다." \
                 .format(waiting, order))
-        waiting += 1
-        chicken -= order
+            waiting += 1
+            chicken -= order
 
         if chicken == 0:
             raise SoldOutError
