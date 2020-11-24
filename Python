@@ -50,7 +50,7 @@ print(password)
 # 커피 당첨자 : [2,3,4]
 # -- 축하합니다 --
 
-# from randor import *
+# from random import *
 # list = [1,2,3,4,5]
 # print(list)
 # shuffle(list)
