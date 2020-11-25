@@ -171,14 +171,23 @@ shuffle(name)
 work =["청소","식사준비","외근"]
 shuffle(work)
 
-
 for i in range(1, 51):
     with open(str(i)+"주차.txt","w",encoding="utf8") as report:
-        report.write("- {0} 주차 주간보고".format(i))
+        report.write("- {0}주차 주간보고".format(i))
         report.write("\n부서: 관리부")
         report.write("\n이름: {0}".format(name[0]))
         report.write("\n업무 요약: {0}".format(work[0]))
         
+# 7번 실습2
+from random import *
+
+for i in range(1,51):
+    result = open(str(i) + "주차.txt", "w", encoding="utf-8")
+    result.write("- {0}주차 주간보고".format(i)"
+    result.write("\n부서: ")
+    result.write("\n이름: ")
+    result.write("\n업무 요약: ")
+    
 # 8.주어진 코드를 활용하여 부동산 프로그램을 작성하시오.
 
 # (출력예제)
