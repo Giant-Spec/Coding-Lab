@@ -30,7 +30,7 @@ print("오프라인 스터디 모임은" + str(date) +"일로 선정되었습니
 # 규칙3 : 남은 글자 중 처음 세자리 + 글자 갯수 + 글자 내 e 갯수 + ! 로 구성
             #    (nav)                (3)          (1)           (!)
 
-# 생성된 비밀번호 : nav
+# 생성된 비밀번호 : nav51!
 url = "https://naver.com"
 my_str = url.replace("https://", "")
 my_str = my_str[:my_str.index(".")] # my_str[0:5] (0,1,2,3,4)
