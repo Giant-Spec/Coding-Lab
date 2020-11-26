@@ -249,7 +249,7 @@ while(True):
         if order > chicken: # 남은 치킨 보다 주문량이 많을때
             print("재료가 부족합니다.")
         elif order <= 0:
-            raise ValuError
+            raise ValueError
         else:
             print("[대기번호 {0}] {1} 마리 주문이 완료되었습니다." \
                 .format(waiting, order))
