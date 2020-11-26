@@ -251,7 +251,7 @@ while(True):
         elif order <= 0:
             raise ValueError
         else:
-            print("[대기번호 {0}번] {1} 마리 주문이 완료되었습니다." \
+            print("[대기번호 {0}번] {1}마리 주문이 완료되었습니다." \
                 .format(waiting, order))
             waiting += 1
             chicken -= order
