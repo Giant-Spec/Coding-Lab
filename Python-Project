@@ -1,4 +1,4 @@
-1_create_frame.py
+# 1_create_frame.py
 
 from tkinter import *
 
@@ -11,7 +11,7 @@ root.resizable(False, False) # 창 변경 불가.
 
 root.mainloop()
 
-2_Button.py
+# 2_Button.py
 
 from tkinter import *
 
@@ -45,7 +45,7 @@ btn7.pack()
 
 root.mainloop()
 
-3_label.py
+# 3_label.py
 
 from tkinter import *
 
