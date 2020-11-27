@@ -283,10 +283,10 @@ while(True):
 
 def sign():
     print("이 프로그램은 xxx에 의해 만들어졌습니다.")
-    print("유투브 : http://http://youtube.com")
-    print("이메일 : aaaaaaa@gmail.com")
+    print("유투브: http://http://youtube.com")
+    print("이메일: aaaaaaa@gmail.com")
 
-[index.py]
+# [index.py]
 
 import byme
 byme.sign()
