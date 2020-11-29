@@ -19,7 +19,7 @@ print(station + "행 열차가 들어오고 있습니다.")
 # (출력문) 오프라인 스터디 모임은 일로 선정되었습니다.
 
 from random import *
-date = randint(4, 28) # randint 는 두 점 모두를 포함
+date = randint(4, 28) # randint 는 두 점 모두를 포함 # randint:입력 파라미터인 정수를 임의의 정수를 리턴한다.
 
 print("오프라인 스터디 모임은" + str(date) +"일로 선정되었습니다.")
 
