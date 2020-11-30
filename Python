@@ -98,7 +98,7 @@ for i in range(1, 51):
     else:
         print("[ ] {0}번째 손님 (소요시간: {1}분".format(i, time))
 
-print("\n총 탑승 승객: {0}명".format)
+print("\n총 탑승 승객: {0}명".format(cnt))
 
 
 # 6.표준 체중을 구하는 프로그램을 구하시오
