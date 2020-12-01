@@ -13,7 +13,7 @@ while (true) {
     }
 }
 
-# 2. 끝말 잊기
+# 2. 별찍기
 
 for (var star = 10; star >= 2; star =- 2) {
     console.log('*'.repeat(star))
