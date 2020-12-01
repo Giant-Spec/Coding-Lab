@@ -1,6 +1,6 @@
 # 1. 끝말 잊기
 
-var word = '제로초초초'
+var word = '포항시'
 while (true) {
     var answer = prompt(word)
     if (word[word.length - 1] === answer[0]) {
@@ -15,7 +15,7 @@ while (true) {
 
 # 2. 끝말 잊기
 
-for (var star = 10; star >= 2; star -2) {
+for (var star = 10; star >= 2; star =- 2) {
     console.log('*'.repeat(star))
 }
 
@@ -25,6 +25,7 @@ for (처음(1); 조건(2); 끝(4)) {
 
 for (var star = 5; star >= 1; star -= 1) {
     console.log(' '.repeat(5 - star) + '*'.repeat(star))
+    }
 
 for (var star = 9; star >= 1; star -= 2) {
     console.log(' '.repeat(9 - star) + '*'.repeat(star))
