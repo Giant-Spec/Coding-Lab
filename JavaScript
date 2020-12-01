@@ -37,3 +37,6 @@ for (var star = 9; star >= 1; star -= 2) {
 for (var star = 0; star < 5; star += 1) {
     console.log('*'.repeat(star))
 }
+
+구름 edu
+2-2. 수강~~
