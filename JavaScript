@@ -1,4 +1,4 @@
-끝말 잊기
+# 1. 끝말 잊기
 
 var word = '제로초초초'
 while (true) {
@@ -11,4 +11,10 @@ while (true) {
         // 틀렸을 때
         alert('땡')
     }
+}
+
+# 2. 끝말 잊기
+
+for (var star = 10; star >= 2; star -2) {
+    console.log('*'.repeat(star))
 }
