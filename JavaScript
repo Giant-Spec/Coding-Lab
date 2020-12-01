@@ -18,3 +18,7 @@ while (true) {
 for (var star = 10; star >= 2; star -2) {
     console.log('*'.repeat(star))
 }
+
+for (처음(1); 조건(2); 끝(4)) {
+    실행(3)
+}
