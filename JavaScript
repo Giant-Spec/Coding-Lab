@@ -68,4 +68,10 @@ while(true) {
       alert('땡')
     }
   }
+  
+  function 함수(반복횟수) {
+console.log('*'.repeat(반복횟수))
+}
+
+함수(5)
 }
