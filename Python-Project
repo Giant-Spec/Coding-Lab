@@ -72,7 +72,8 @@ btn.pack()
 
 root.mainloop()
 
-# 4_entry.py 
+# 4_entry.py
+
 from tkinter import *
 
 root = Tk()
