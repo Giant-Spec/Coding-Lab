@@ -129,12 +129,12 @@ print("키 {0}cm {1}의 표준 체중은 {2}kg 입니다.".format(height, gender
 # 표준 체중을 구하는 프로그램을 구하시오
 
 # (성별에 따른 공식)
-# 남자 : 키(m) x 키(m) x 22
-# 여자 : 키(m) x 키(m) x 21
+# 남자: 키(m) x 키(m) x 22
+# 여자: 키(m) x 키(m) x 21
 
 # 조건1 : 표준 체중은 별도의 함수 내에서 계산
-#        * 함수명 : std_weight
-#        * 전달값 : 키(height), 성별(gender)
+#        * 함수명: std_weight
+#        * 전달값: 키(height), 성별(gender)
 # 조건2 : 표준 체중은 소수점 둘째자리까지 표시
 
 # (출력 예제)
@@ -289,8 +289,8 @@ while(True):
 
 # (출력 예제)
 # 이 프로그램은 xxx에 의해 만들어졌습니다.
-# 유투브 : http://http://youtube.com
-# 이메일 : aaaaaaa@gmail.com
+# 유투브: http://http://youtube.com
+# 이메일: aaaaaaa@gmail.com
 
 # [byme.py]
 
