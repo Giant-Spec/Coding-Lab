@@ -163,3 +163,28 @@ console.log('*'.repeat(반복횟수))
 
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+    var input = prompt('숫자를 입력해주세요', '');
+    var number = Number(input);
+
+    (number > 0) ? alert('자연수입니다') : alert('자연수가 아닙니다');
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
+
+
+
