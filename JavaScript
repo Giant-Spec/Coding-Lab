@@ -322,3 +322,33 @@ console.log('*'.repeat(반복횟수))
 
 </body>
 </html>
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+        var string = "가나다라마바";
+        string[0];
+        string[1];
+        string[2];
+        string[0] = "하"
+        string.length
+
+        alert(string)
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
+
+구름 edu - 자바스크립트 21강~~
