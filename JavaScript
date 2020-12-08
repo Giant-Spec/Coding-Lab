@@ -269,4 +269,28 @@ console.log('*'.repeat(반복횟수))
 
 
 
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var array = [10, "가나다", true, 40, 50, 60];
+        alert(array.length); //6
+        alert(array[array.length - 1]); // 마지막 번째 요소
+
+        //배열 뒤에 요소를 추가
+        array.push(70);
+        array.push(80);
+        array[array.length] = 90;
+        alert(array);
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
+
 
