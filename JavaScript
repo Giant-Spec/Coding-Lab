@@ -382,4 +382,27 @@
 </html>
 
 
+<!DOCTYPE html>
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var array = ["과자", "사탕", "젤리"];
+        for (var i = array.length - 1; i >= 0; i--) {
+            // 0번째 반복: i = 2 = array[2] => 젤리
+            // 1번째 반복: i = 1 = array[1] => 사탕
+            // 2번째 반복: i = 0 = array[0] => 과자
+            // 3번째 반복: i = -1
+            alert(array[i]);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+구름 edu 23강~~
