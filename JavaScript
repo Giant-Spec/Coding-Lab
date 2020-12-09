@@ -262,4 +262,26 @@
 </body>
 </html>
 
-구름 edu - 자바스크립트 21강~~
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        i = 0;
+        while (i < 10) {
+            alert(i);
+            i++;
+        }
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
+
+
