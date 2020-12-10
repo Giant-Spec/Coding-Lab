@@ -719,3 +719,36 @@
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var array = [52, 273, 103, 32, 57, 103, 31, 2];
+
+        // 최소값 찾기
+        var output = 389898398198139;
+        for (var i = 0; i < array.length; i++) {
+            // i = 0, array[0] = 52, output = 52
+            // i = 1, array[1] = 273, output = 52
+            // i = 2, array[2] = 103, output = 52
+            // i = 3, array[3] = 32, output = 32
+            // i = 4, array[4] = 57, output = 32
+            // i = 5, array[5] = 103, output =32
+            // i = 6, array[6] = 31, output = 31
+            // i = 7, array[7] = 2, output =2
+            if (output > array[i]) {
+                output = array[i];
+            }
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
