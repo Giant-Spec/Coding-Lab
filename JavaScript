@@ -422,3 +422,24 @@
 
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+        let a = 10;
+        let b;
+        b = 20;
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
