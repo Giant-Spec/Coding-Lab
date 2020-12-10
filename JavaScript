@@ -694,3 +694,28 @@
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var array = [52, 273, 103, 32, 57, 103, 31, 2];
+
+        // 최소값 찾기
+        var output = 389898398198139;
+        for (var i = 0; i < array.length; i++) {
+            if (output > array[i]) {
+                output = array[i];
+            }
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
