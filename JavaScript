@@ -646,3 +646,31 @@
 
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        while (true) {
+            var input = prompt("입력해주세요", "");
+            if (input.indexOf("안녕") >= 0) {
+                alert("안녕하세요");
+            } else if (input.indexOf("시간") >= 0) {
+                var hours = (new Date()).getHours();
+                alert(hours + "시 입니다.")
+            } else if (input.indexOf("잘 있어") >= 0 || input.indexOf("잘 있어") >= 0) {
+                alert("안녕히 가세요");
+                break;
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
