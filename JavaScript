@@ -407,4 +407,18 @@
 </html>
 
 
-구름 edu 23강~~
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        alert('표현식 273 + 27의 값은 ' + (273 + 27) + '입니다!');
+        alert(`표현식 273 + 27의 값은 ${273 + 27}입니다!`);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
