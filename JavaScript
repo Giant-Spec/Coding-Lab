@@ -161,19 +161,21 @@
     <meta charset="utf-8" />
     <title></title>
     <script>
-        var array = [10, 20, 30, 40, 50, 60];
-        alert(array);
-        alert(array[0]);
-        alert(array[1]);
-        alert(array[2]);
-        alert(array[3]);
-        alert(array[4]);
-        alert(array[5]);
+        var string = "가나다라마바";
+        string[0];
+        string[1];
+        string[2];
+        string[0] = "하";
+        string.length;
 
-        array[0] = 100;
-        array[1] = 200;
-        alert(array);
-
+        alert(string);
+        alert(string[0]);
+        alert(string[1]);
+        alert(string[2]);
+        alert(string[3]);
+        alert(string[4]);
+        alert(string[5]);
+        alert(string.length);
     </script>
 
 </head>
