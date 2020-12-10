@@ -595,3 +595,32 @@
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var array = [200, 100, 50, 10, 100, 10, 20];
+        var isUnder20 = false;
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] < 20) {
+
+                break;
+            }
+        }
+
+        if (isUnder20) {
+            alert("20보다 작은 값이 있습니다");
+        } else {
+            alert("20보다 작은 값이 없습니다.");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
