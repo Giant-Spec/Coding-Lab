@@ -571,3 +571,27 @@
 
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var array = [200, 100, 50, 10, 100, 10, 20];
+
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] < 20) {
+                alert("배열 내부에 20보다 작은 값이 있습니다.");
+                break;
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
