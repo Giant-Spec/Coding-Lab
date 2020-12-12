@@ -781,3 +781,36 @@
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+    // 이름 있는 함수를 만드는 방법
+    function testA() {
+        alert("testA 위치입니다.");
+        alert("testA 위치입니다.");
+        alert("testA 위치입니다.");
+    }
+    // 이름 없는 함수를 만드는 방법
+    var testB = function () {
+        alert("testB 위치입니다.");
+        alert("testB 위치입니다.");
+        alert("testB 위치입니다.");
+    };
+
+    testA();
+    testB();
+    
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
