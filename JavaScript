@@ -162,14 +162,6 @@
     <title></title>
     <script>
         var string = "가나다라마바";
-        string[0];
-        string[1];
-        string[2];
-        string[3];
-        string[4];
-        string[5];
-        string[0] = "하";
-        string.length;
 
         alert(string);
         alert(string[0]);
