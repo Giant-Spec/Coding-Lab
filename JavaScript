@@ -48,9 +48,6 @@
     <title></title>
     <script>
         var rawInput = prompt('숫자를 입력해주세요', '숫자');
-        if (rawInput == '') {
-            rawInput = "dhjdhfjhf";
-        }
         var input = Number(rawInput);
 
         switch (input) {
