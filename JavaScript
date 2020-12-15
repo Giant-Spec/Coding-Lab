@@ -908,3 +908,29 @@
 </body>
 </html>
 
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        // 매개변수로 들어온 함수를 n번 실행해줌
+        function callNTimes(n, callback) {
+            for (var i = 0; i < n; i++) {
+                callback();
+            }
+        }
+
+        callNTimes(20, function () {
+            alert("출력합니다");
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
