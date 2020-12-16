@@ -1202,3 +1202,34 @@
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+        // A를 출력해야겠다!
+        alert('A');
+
+        // 예약을 건다..!
+        setTimeout(function () { alert('B'); }, 0);
+
+        // C를 출력해야겠다!
+        alert('C');
+
+        // 무한 반복
+        while (true) { }
+
+        // 실행 끊김
+
+    </script>
+ 
+</head>
+<body>
+
+</body>
+</html>
