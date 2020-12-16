@@ -1266,3 +1266,31 @@
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        // let const var
+        // 스코프 내부에서만 작동하는 변수를 선언
+        for (let i = 0; i < 3; i++) {
+            //i = 0
+            //예약을 걸고!
+            //i = 1
+            //예약을 걸고!
+            //i = 2
+            //예약을 걸고!
+            //i = 3
+            setTimeout(function () { alert(i); }, 0);
+        }
+    </script>
+ 
+</head>
+<body>
+
+</body>
+</html>
