@@ -267,9 +267,7 @@
             alert(i);
             i++;
         }
-
     </script>
-
 </head>
 <body>
 
@@ -296,7 +294,6 @@
 </html>
 
 
-
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -313,10 +310,8 @@
     </script>
 </head>
 <body>
-
 </body>
 </html>
-
 
 
 <!DOCTYPE html>
@@ -412,7 +407,6 @@
 
 </body>
 </html>
-
 
 
 <!DOCTYPE html>
@@ -563,7 +557,6 @@
 </html>
 
 
-
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -636,7 +629,6 @@
 
 </body>
 </html>
-
 
 
 <!DOCTYPE html>
@@ -742,7 +734,6 @@
 
 </body>
 </html>
-
 
 
 <!DOCTYPE html>
@@ -872,7 +863,6 @@
 </html>
 
 
-
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -902,7 +892,6 @@
 
 </body>
 </html>
-
 
 
 <!DOCTYPE html>
@@ -980,6 +969,5 @@
 
 </body>
 </html>
-
 
 33번 3:56~
