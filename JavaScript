@@ -998,3 +998,207 @@
 </body>
 </html>
 
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        alert("시작되었습니다");
+
+        //특정 시간 후에 함수를 1번만 실행하는 녀석
+        setTimeout(function () {
+            alert("1초가 지났습니다");
+        }, 1000)
+
+        alert
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        // alert("시작되었습니다");
+
+        //특정 시간 후에 함수를 1번만 실행하는 녀석
+        var id = setTimeout(function () {
+            // alert("1초가 지났습니다");
+        }, 1000);
+
+        clearTimeout() // setTimeout()으로 설정한 타이머 제거
+
+        alert
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        alert("시작되었습니다");
+
+        // setInterval() 함수는 계속 반복
+        var id = setInterval(function () {
+            alert("1초가 지났습니다");
+        }, 1000);
+
+        clearInterval(id) // setTimeout()으로 설정한 타이머 제거
+
+        alert
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        alert("시작되었습니다");
+
+        // setInterval() 함수는 계속 반복
+        var id = setInterval(function () {
+            alert("1초가 지났습니다");
+        }, 1000);
+
+        setTimeout(function () {
+            clearInterval(id);
+        }, 3000)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+        var SECONDS = 1000;
+
+        // setInterval() 함수는 계속 반복
+        var id = setInterval(function () {
+            alert("1초가 지났습니다");
+        }, 1 * SECONDS);
+
+        setTimeout(function () {
+            clearInterval(id);
+        }, 3 * SECONDS)
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+        // 인코딩: Encoding
+        var a = escape('초코릿');
+        // 디코딩: Decoding
+        var b = unescape(a);
+
+        alert(a);
+        alert(b);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+        alert(isFinite(10 / 0));
+        alert(isFinite(10));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+        var output = Number('ahjdhfhdjhfj');
+        alert(isNaN(output)); //true
+        alert(isNaN(10)); //false
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+        parseInt('200가나다라') // Integer: 정수, -52, 0, 273
+        parseFloat('52.273ㅁ오ㅓ로') // Float: 부동소수점 52.261
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
