@@ -543,11 +543,9 @@
     <title></title>
     <script>
         while (true) {
-            if (confirm("종료하시겠습니까?")) {
+            if (confirm("종료하시겠습니까?"))
                 break;
-            }
         }
-
         alert("종료되었습니다.")
     </script>
 </head>
