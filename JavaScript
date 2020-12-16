@@ -494,7 +494,7 @@
     <meta charset="utf-8" />
     <title></title>
     <script>
-        var array = ['과자', '사탕', '젤리'];
+        var array = ['11', '22', '33'];
         for (var i = 0; i < array.length; i++) {
             alert(array[i]);
         }
@@ -517,7 +517,7 @@
     <meta charset="utf-8" />
     <title></title>
     <script>
-        var array = ["과자", "사탕", "젤리"];
+        var array = ["11", "22", "33"];
 
         for (var i in array) {
             alert(i);
