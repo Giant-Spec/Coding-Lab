@@ -1294,3 +1294,54 @@
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        for (var i = 0; i < 3; i++) {
+            (function (i) {
+                setTimeout(function () {
+                    alert(i);
+                }, 0);
+            })(i);
+        }
+    </script>
+ 
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        for (var i = 0; i < 3; i++) {
+            (function (i) {
+                var button = document.createElement("button");
+                button.textContent = i;
+                button.onclick = Function() {
+                    alert(i);
+                };
+                document.body.appendChild(button);
+            })(i);
+        }
+    </script>
+ 
+</head>
+<body>
+
+</body>
+</html>
+
+36번~~
