@@ -523,7 +523,7 @@
             alert(i);
         }
 
-        for (var item of array) {
+        for (var j of array) {
             alert(item);
         }
 
