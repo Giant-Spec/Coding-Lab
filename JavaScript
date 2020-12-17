@@ -524,7 +524,7 @@
         }
 
         for (var j of array) {
-            alert(item);
+            alert(j);
         }
 
     </script>
